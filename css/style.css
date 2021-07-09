@@ -78,6 +78,9 @@ ol {
   font-weight: normal;
   color: #dd7732;
 }
+.res {
+  font-size: 3rem;
+}
 
 .cursor {
   display: inline-block;
@@ -1599,6 +1602,14 @@ jkhgjhghjugjkhkjk
 }
 
 /* Small Mobile: 320px */
+@media only screen and (max-width: 400px) {
+  .res {
+    font-size: 2rem;
+  }
+  .resp {
+    font-size: 2rem;
+  }
+}
 
 @media only screen and (max-width: 479px) {
   .bh-text h2,
